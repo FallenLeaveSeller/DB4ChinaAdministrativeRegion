@@ -33,6 +33,17 @@
 | “区县” 数据库脚本（带编码） | [areas.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/areas.sql) |
 | “乡镇” 数据库脚本（带编码） | [streets.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/streets.sql) |
 
+## 表定义
+```sql
+  CREATE TABLE `dict_district_name`
+      ( `id` int(11) NOT NULL AUTO_INCREMENT,
+       `code` varchar(12) DEFAULT NULL,
+       `name` varchar(80) DEFAULT NULL,
+       `parent_code` varchar(12) DEFAULT NULL,
+       PRIMARY KEY (`id`)
+     ) ENGINE=InnoDB AUTO_INCREMENT=2856 DEFAULT CHARSET=utf8;
+```
+  
 > 提示：需要打包下载全部文件，请看 [Releases](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/releases)。
 
 ## Usage
