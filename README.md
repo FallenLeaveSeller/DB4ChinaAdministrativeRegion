@@ -1,4 +1,4 @@
-# Administrative-divisions-of-China
+# 基于 Administrative-divisions-of-China 项目扩展sql脚本创建相关工作
 
 [![code style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![dependencies](https://david-dm.org/modood/Administrative-divisions-of-China.svg)](https://david-dm.org/modood/Administrative-divisions-of-China)
@@ -21,18 +21,22 @@
 
 | 文件列表                                     | 下载地址       |
 |:---------------------------------------------|:---------------|
-| 省份数据                                        | [provinces.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/provinces.json) |
-| 城市数据                                        | [cities.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/cities.json) |
-| 区县数据                                        | [areas.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/areas.json) |
-| 乡镇（街道）数据                                | [streets.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/streets.json) |
-| “省份、城市” 二级联动数据                       | [pc.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pc.json) |
-| “省份、城市” 二级联动数据（带编码）             | [pc-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pc-code.json) |
-| “省份、城市、区县” 三级联动数据                 | [pca.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pca.json) |
-| “省份、城市、区县” 三级联动数据（带编码）       | [pca-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pca-code.json) |
-| “省份、城市、区县、乡镇” 四级联动数据           | [pcas.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas.json) |
-| “省份、城市、区县、乡镇” 四级联动数据（带编码） | [pcas-code.json](https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/pcas-code.json) |
+| 省份数据                                        | [provinces.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/provinces.json) |
+| 城市数据                                        | [cities.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/cities.json) |
+| 区县数据                                        | [areas.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/areas.json) |
+| 乡镇（街道）数据                                | [streets.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/streets.json) |
+| “省份、城市” 二级联动数据                       | [pc.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pc.json) |
+| “省份、城市” 二级联动数据（带编码）             | [pc-code.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pc-code.json) |
+| “省份、城市、区县” 三级联动数据                 | [pca.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pca.json) |
+| “省份、城市、区县” 三级联动数据（带编码）       | [pca-code.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pca-code.json) |
+| “省份、城市、区县、乡镇” 四级联动数据           | [pcas.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pcas.json) |
+| “省份、城市、区县、乡镇” 四级联动数据（带编码） | [pcas-code.json](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/pcas-code.json) |
+| “省份” 数据库脚本（带编码） | [provinces.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/provinces.sql) |
+| “城市” 数据库脚本（带编码） | [cities.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/cities.sql) |
+| “区县” 数据库脚本（带编码） | [areas.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/areas.sql) |
+| “乡镇” 数据库脚本（带编码） | [streets.sql](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/blob/master/dist/streets.sql) |
 
-> 提示：需要打包下载全部文件，请看 [Releases](https://github.com/modood/Administrative-divisions-of-China/releases)。
+> 提示：需要打包下载全部文件，请看 [Releases](https://github.com/FallenLeaveSeller/DB4ChinaAdministrativeRegion/releases)。
 
 ## Usage
 
@@ -100,18 +104,6 @@ $ npm test
 
   8 passing (12ms)
 ```
-
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/modood/Administrative-divisions-of-China.svg)](https://starcharts.herokuapp.com/modood/Administrative-divisions-of-China)
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
 
 ## License
 
